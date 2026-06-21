@@ -1,0 +1,4 @@
+-- schema.sql
+-- Defines all PostgreSQL tables for the Global Retail Pulse project.
+--
+-- Content added in Phase 4.

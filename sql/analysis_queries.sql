@@ -1,0 +1,5 @@
+-- analysis_queries.sql
+-- Business-intelligence SQL queries: revenue trends, top products,
+-- customer RFM segments, cohort retention, and country-level breakdowns.
+--
+-- Content added in Phase 4.
