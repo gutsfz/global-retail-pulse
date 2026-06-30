@@ -2,6 +2,8 @@ import sys
 import pandas as pd
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding="utf-8")
+
 def load_raw_data(filepath):
     """
     Load the Online Retail II dataset from a CSV file.
@@ -14,6 +16,11 @@ def load_raw_data(filepath):
     """
     print("Loading raw data...")
     df = pd.read_csv(filepath, dtype={"Customer ID": str}, encoding="latin-1")
+    df["InvoiceDate"] = pd.to_datetime(
+        df["InvoiceDate"].str.split(" ").str[0],
+        format="%m/%d/%y",
+        errors="coerce"
+    )
     print(f"Raw data loaded: {len(df):,} rows total")
     return df
 
