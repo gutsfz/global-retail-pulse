@@ -190,6 +190,10 @@ if __name__ == "__main__":
         print(f"ERROR in add_revenue: {e}")
         raise
 
+    orders_file = ROOT_DIR / "data" / "processed" / "orders.parquet"
+    df.to_parquet(orders_file, index=False)
+    print(f"Cleaned orders saved to {orders_file} ({len(df):,} rows)")
+
     try:
         build_monthly_aggregates(df, monthly_file)
     except Exception as e:
