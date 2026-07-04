@@ -1,3 +1,20 @@
+<div align="center">
+
+# 📊 Global Retail Pulse
+### Transforme dados brutos de vendas em decisões de negócio.
+
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](https://python.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-4169E1?logo=postgresql&logoColor=white)](https://postgresql.org)
+[![pandas](https://img.shields.io/badge/pandas-2.2.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**[🇧🇷 Português](#versão-em-português)** • **[🇺🇸 English](#english-version)**
+
+</div>
+
+---
+
 # VERSÃO EM PORTUGUÊS
 
 # Global Retail Pulse — Análise de Vendas e Clientes E-commerce
@@ -183,13 +200,6 @@ jupyter notebook
 ![Dashboard Global Retail Pulse](dashboard/screenshot.png)
 
 O passo a passo completo de construção do dashboard — fontes de dados, planilhas e instruções de publicação — está documentado em [`dashboard/README.md`](dashboard/README.md).
-
-## O Que Eu Adicionaria a Seguir
-
-- **Orquestração com Airflow** — substituir a execução manual dos scripts por um DAG agendado, com retries e monitoramento de falhas.
-- **dbt** — mover a lógica de transformação (limpeza, agregados, RFM) para modelos SQL versionados e testáveis, em vez de pandas puro.
-- **Deploy em nuvem** — mover o PostgreSQL para AWS RDS e os dados brutos/processados para S3, tornando o pipeline acessível fora da máquina local.
-- **Camada preditiva de churn** — treinar um modelo de machine learning sobre as features RFM para prever a probabilidade de churn por cliente, indo além da segmentação por regras.
 
 ## Licença
 
@@ -382,13 +392,6 @@ jupyter notebook
 ![Global Retail Pulse dashboard](dashboard/screenshot.png)
 
 The full dashboard build steps — data sources, sheets, and publishing instructions — are documented in [`dashboard/README.md`](dashboard/README.md).
-
-## What I'd Add Next
-
-- **Airflow orchestration** — replace manual script execution with a scheduled DAG that includes retries and failure monitoring.
-- **dbt** — move the transformation logic (cleaning, aggregates, RFM) into versioned, testable SQL models instead of plain pandas.
-- **Cloud deployment** — move PostgreSQL to AWS RDS and the raw/processed data to S3, making the pipeline accessible beyond the local machine.
-- **Predictive churn layer** — train a machine learning model on the RFM features to predict per-customer churn probability, going beyond rule-based segmentation.
 
 ## License
 
