@@ -180,9 +180,7 @@ jupyter notebook
 
 ## Dashboard
 
-**Dashboard no Tableau Public:** [link a ser adicionado após a publicação]
-
-**Screenshot:** *(a ser adicionado — ver `dashboard/screenshot.png`)*
+![Dashboard Global Retail Pulse](dashboard/screenshot.png)
 
 O passo a passo completo de construção do dashboard — fontes de dados, planilhas e instruções de publicação — está documentado em [`dashboard/README.md`](dashboard/README.md).
 
@@ -381,9 +379,7 @@ jupyter notebook
 
 ## Dashboard
 
-**Tableau Public dashboard:** [link to be added after publishing]
-
-**Screenshot:** *(to be added — see `dashboard/screenshot.png`)*
+![Global Retail Pulse dashboard](dashboard/screenshot.png)
 
 The full dashboard build steps — data sources, sheets, and publishing instructions — are documented in [`dashboard/README.md`](dashboard/README.md).
 
